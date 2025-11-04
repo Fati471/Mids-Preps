@@ -1,0 +1,43 @@
+1️⃣ CRUD Functions
+
+Classic data operations on any resource:
+
+createStudent() → Add a new student
+
+getAllStudents() → Fetch all students
+
+getStudentById(id) → Fetch one student by ID
+
+updateStudent(id) → Update student info
+
+deleteStudent(id) → Delete student
+
+2️⃣ Query & Filter Functions
+
+Practice functions that filter or search data:
+
+getTopStudents() → Return students with highest grades
+
+getStudentsByPercentage(min, max) → Return students in a range
+
+searchStudentsByName(name) → Return students whose name matches
+
+3️⃣ Sorting & Aggregation Functions
+
+Server-side data processing functions:
+
+sortStudentsByName() → Alphabetical order
+
+sortStudentsByPercentage() → Highest to lowest
+
+getAveragePercentage() → Calculate class average
+
+getTotalStudents() → Count of all students
+
+6️⃣ Complex / Conditional Functions
+
+getFailedStudents() → Students below a certain percentage
+
+promoteStudents() → Mark students for next class if percentage > threshold
+
+getStudentsByDesignation(designation) → Filter students by role/field
